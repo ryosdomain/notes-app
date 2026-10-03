@@ -19,7 +19,7 @@ const notesboard = () => {
 
   return (
     <div>
-      <div className="bg-[#1E88E5] text-white py-2 my-2">
+      <div className="bg-[#525871] text-white py-2 my-2">
         <h1 className="text-center text-2xl font-semibold">Notes App</h1>
       </div>
       <div className="">
@@ -27,7 +27,7 @@ const notesboard = () => {
           onClick={() => {
             setOpen(!open);
           }}
-          className="text-center w-full bg-[#4CAF50] rounded py-1 my-2 border active:scale-95 text-[#fafffd] font-semibold"
+          className="text-center w-full bg-[#f2c1a3] rounded py-1 my-2 border active:scale-95 text-[#fafffd] font-semibold"
         >
           Add notes
         </button>

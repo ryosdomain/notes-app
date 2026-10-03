@@ -5,9 +5,9 @@ const note = (props) => {
 
   return (
     <div>
-      <div className="bg-[#FFF3E0] h-full px-2 py-2 wrap-break-word flex flex-col justify-between">
+      <div className="bg-[#f8ccaa] h-full px-2 py-2 wrap-break-word flex flex-col justify-between">
         <div>
-          <div className="py-2 mb-5 bg-[#71aadd]">
+          <div className="py-2 mb-5 bg-[#cd9fa0]">
             <p className="text-white text-center">Task # {props.idx + 1}</p>
           </div>
           <h4 className="my-2 text-xl font-semibold">{props.value.title}</h4>
@@ -18,7 +18,7 @@ const note = (props) => {
             onClick={() => {
               props.deleteNote(props.idx);
             }}
-            className="w-full py-1 mt-20 bg-red-400 active:scale-95 text-center text-white"
+            className="w-full py-1 mt-20 bg-red-300 active:scale-95 text-center text-white"
           >
             Delete Task
           </button>
